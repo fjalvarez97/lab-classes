@@ -23,6 +23,14 @@ public class Student
         name = fullName;
         id = studentID;
         credits = 0;
+        if(name.length()<4)
+        {   //Error if name length < 4
+            System.out.println("Introduzca un nombre de mas de 4 caracteres");
+        }
+        if(id.length()<3)
+        {   //Error if id length < 3
+            System.out.println("Introduzca un  de mas de 3 caracteres");
+        }
     }
 
     /**
